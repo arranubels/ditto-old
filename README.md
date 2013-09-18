@@ -116,7 +116,7 @@ The **WHEN** property is used to tell the schedule when it is allowed to execute
 
 	WHEN="45 16 * * *"
 	
-The expressions, however, **does not support advanced operators**. Basically, you can only use single or double digit numbers for all of the values. An asterisk implies that it should always run for that specific field. (See the cron man page for more information about the field orders).
+The expressions, however, **do not support advanced operators**. Basically, you can only use single or double digit numbers for all of the values. An asterisk implies that it should always run for that specific field. (See the cron man page for more information about the field orders).
 
 #### 3. Troubleshooting ####
 
